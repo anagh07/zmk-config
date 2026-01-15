@@ -37,11 +37,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp CAPS   &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                          &kp N6     &kp N7            &kp N8     &kp N9   &kp N0         &kp K_MUTE
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp B                                           &kp J      &kp L             &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
-&kp ESC    &kp A   &kp R   &kp S     &kp T     &kp G                                           &kp M      &kp N             &kp E      &kp I    &kp O          &mt RIGHT_SHIFT SINGLE_QUOTE
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp D     &kp V          &kp LBKT    &lt 3 RIGHT_BRACKET  &kp K      &kp H             &kp COMMA  &kp DOT  &lt 1 SLASH    &kp ENTER
-                           &kp LALT  &kp LGUI  &kp BACKSPACE  &mo 1       &mo 2                &kp SPACE  &kp LEFT_CONTROL  &kp RGUI
+&kp CAPS   &kp N1  &kp N2  &kp N3    &kp N4       &kp N5                                                    &kp N6     &kp N7            &kp N8     &kp N9   &kp N0         &kp K_MUTE
+&kp TAB    &kp Q   &kp W   &kp F     &kp P        &kp B                                                     &kp J      &kp L             &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
+&kp ESC    &kp A   &kp R   &kp S     &mt LCTRL T  &kp G                                                     &kp M      &kp N             &kp E      &kp I    &kp O          &mt RIGHT_SHIFT SINGLE_QUOTE
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp D        &kp V          &lt 3 LEFT_BRACKET    &lt 3 RIGHT_BRACKET  &kp K      &kp H             &kp COMMA  &kp DOT  &lt 1 SLASH    &kp ENTER
+                           &kp LALT  &kp LGUI     &kp BACKSPACE  &mo 1                 &mo 2                &kp SPACE  &kp LEFT_CONTROL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -87,11 +87,11 @@
 
         layer_3 {
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0       &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans             &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&ext_power EP_ON  &ext_power EP_OFF  &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&out OUT_TOG      &trans             &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                   &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans
+&bt BT_CLR         &bt BT_SEL 0       &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &trans             &trans            &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&ext_power EP_TOG  &ext_power EP_OFF  &ext_power EP_ON  &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&out OUT_TOG       &trans             &trans            &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
