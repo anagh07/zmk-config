@@ -53,7 +53,7 @@
 &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T                           &kp Y          &kp U             &kp I         &kp O         &kp P          &kp BACKSLASH
 &kp ESCAPE      &kp A         &kp S         &kp D         &kp F         &kp G                           &kp H          &kp J             &kp K         &kp L         &kp SEMICOLON  &mt RSHIFT SQT
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V         &kp B         &trans    &trans  &kp N          &kp M             &kp COMMA     &kp PERIOD    &kp QUESTION   &kp ENTER
-                                            &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE     &trans    &trans  &kp BACKSPACE  &kp LEFT_CONTROL  &trans
+                                            &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE     &mo 4     &mo 5   &kp BACKSPACE  &kp LEFT_CONTROL  &trans
             >;
         };
 
@@ -63,7 +63,7 @@
 &kp TAB           &kp Q         &kp Q         &kp W         &kp E         &kp R                            &kp T         &kp Y             &kp I         &kp O         &kp P          &kp BACKSLASH
 &kp LSHIFT        &kp LSHIFT    &kp A         &kp S         &kp D         &kp F                            &kp G         &kp H             &kp K         &kp L         &kp SEMICOLON  &mt RSHIFT SQT
 &kp LEFT_CONTROL  &kp Z         &kp Z         &kp X         &kp C         &kp V          &trans    &trans  &kp N         &kp M             &kp COMMA     &kp PERIOD    &kp QUESTION   &kp ENTER
-                                              &kp LEFT_ALT  &kp LEFT_GUI  &kp BACKSPACE  &trans    &trans  &kp SPACE     &kp LEFT_CONTROL  &trans
+                                              &kp LEFT_ALT  &kp LEFT_GUI  &kp BACKSPACE  &mo 4     &mo 5   &kp SPACE     &kp LEFT_CONTROL  &trans
             >;
         };
 
@@ -86,7 +86,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp CAPSLOCK      &trans            &trans            &trans            &kp LA(F4)        &trans                                                  &to 0           &tog 1          &tog 2        &trans     &trans    &kp PRINTSCREEN
+&kp CAPSLOCK      &trans            &trans            &trans            &kp LA(F4)        &trans                                                  &to 0           &to 1           &to 2         &trans     &trans    &kp PRINTSCREEN
 &kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                                        &trans          &kp PAGE_DOWN   &kp PAGE_UP   &trans     &trans    &trans
 &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                                                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp HOME  &kp END
 &kp F7            &kp F8            &kp F9            &kp F10           &kp F11           &kp F12           &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &trans          &kp HOME        &kp END       &trans     &trans    &trans
