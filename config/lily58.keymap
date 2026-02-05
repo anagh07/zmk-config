@@ -37,11 +37,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&to 0      &kp N1  &kp N2  &kp N3    &kp N4       &kp N5                                      &kp N6     &kp N7            &kp N8     &kp N9   &kp N0         &kp K_MUTE
-&kp TAB    &kp Q   &kp W   &kp F     &kp P        &kp B                                       &kp J      &kp L             &kp U      &kp Y    &kp SEMICOLON  &mt RIGHT_ALT MINUS
-&kp ESC    &kp A   &kp R   &kp S     &mt LCTRL T  &kp G                                       &kp M      &kp N             &kp E      &kp I    &kp O          &mt RIGHT_SHIFT SINGLE_QUOTE
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp D        &kp V          &lt 1 LEFT_BRACKET    &mo 4  &kp K      &kp H             &kp COMMA  &kp DOT  &lt 4 SLASH    &kp ENTER
-                           &kp LALT  &kp LGUI     &kp BACKSPACE  &mo 4                 &mo 5  &kp SPACE  &kp LEFT_CONTROL  &kp RGUI
+&to 0      &kp N1  &kp N2  &kp N3    &kp N4       &kp N5                                            &kp N6     &kp N7            &kp N8     &kp N9   &kp N0         &kp K_MUTE
+&kp TAB    &kp Q   &kp W   &kp F     &kp P        &kp B                                             &kp J      &kp L             &kp U      &kp Y    &kp SEMICOLON  &mt RIGHT_ALT MINUS
+&kp ESC    &kp A   &kp R   &kp S     &mt LCTRL T  &kp G                                             &kp M      &kp N             &kp E      &kp I    &kp O          &mt RIGHT_SHIFT SINGLE_QUOTE
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp D        &kp V          &lt 1 LEFT_BRACKET    &mo 4        &kp K      &kp H             &kp COMMA  &kp DOT  &lt 4 SLASH    &kp ENTER
+                           &kp LALT  &kp LGUI     &kp BACKSPACE  &lt 4 SPACE           &lt 5 SPACE  &kp SPACE  &kp LEFT_CONTROL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
