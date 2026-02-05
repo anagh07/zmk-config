@@ -110,8 +110,8 @@
 &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                              &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS
 &kp TAB           &kp Q         &kp Q         &kp W         &kp E         &kp R                                     &kp T         &kp Y             &kp I         &kp O         &kp P          &kp BACKSLASH
 &kp LSHIFT        &kp LSHIFT    &kp A         &kp S         &kp D         &kp F                                     &kp G         &kp H             &kp K         &kp L         &kp SEMICOLON  &mt RSHIFT SQT
-&kp LEFT_CONTROL  &kp Z         &kp Z         &kp X         &kp C         &kp V         &trans           &trans     &kp N         &kp M             &kp COMMA     &kp PERIOD    &kp QUESTION   &kp ENTER
-                                              &kp LEFT_ALT  &kp LEFT_GUI  &mo 2         &kp BACKSPACE    &kp SPACE  &mo 1         &kp LEFT_CONTROL  &trans
+&kp LEFT_CONTROL  &kp Z         &kp Z         &kp X         &kp C         &kp V         &trans       &trans         &kp N         &kp M             &kp COMMA     &kp PERIOD    &kp QUESTION   &kp ENTER
+                                              &kp LEFT_ALT  &kp LEFT_GUI  &mo 2         &kp SPACE    &kp BACKSPACE  &mo 1         &kp LEFT_CONTROL  &trans
             >;
         };
     };
