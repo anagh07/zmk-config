@@ -30,21 +30,21 @@
 
         base {
             bindings = <
-&to 0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4        &kp NUMBER_5                              &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0   &kp K_MUTE
-&kp TAB         &kp Q         &kp W         &kp F         &kp P               &kp B                                     &kp J         &kp L              &kp U          &kp Y         &kp SEMICOLON  &mt RIGHT_ALT MINUS
-&kp ESCAPE      &kp A         &kp R         &kp S         &mt LEFT_CONTROL T  &kp G                                     &kp M         &kp N              &kp E          &kp I         &kp O          &mt RIGHT_SHIFT SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp D               &kp V         &mo 3            &mo 5      &kp K         &kp H              &kp COMMA      &kp PERIOD    &lt 5 SLASH    &kp ENTER
-                                            &kp LEFT_ALT  &kp LEFT_GUI        &mo 5         &kp BACKSPACE    &kp SPACE  &mo 4         &kp RIGHT_CONTROL  &kp RIGHT_GUI
+&to 0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4        &kp NUMBER_5                   &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0   &kp K_MUTE
+&kp TAB         &kp Q         &kp W         &kp F         &kp P               &kp B                          &kp J         &kp L              &kp U          &kp Y         &kp SEMICOLON  &mt RIGHT_ALT MINUS
+&kp ESCAPE      &kp A         &kp R         &kp S         &mt LEFT_CONTROL T  &kp G                          &kp M         &kp N              &kp E          &kp I         &kp O          &mt RIGHT_SHIFT SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp D               &kp V          &mo 3    &mo 5  &kp K         &kp H              &kp COMMA      &kp PERIOD    &lt 5 SLASH    &kp ENTER
+                                            &kp LEFT_ALT  &kp LEFT_GUI        &kp BACKSPACE  &mo 5    &mo 4  &kp SPACE     &kp RIGHT_CONTROL  &kp RIGHT_GUI
             >;
         };
 
         qwerty {
             bindings = <
-&trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                              &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS
-&kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T                                     &kp Y         &kp U             &kp I         &kp O         &kp P          &kp BACKSLASH
-&kp ESCAPE      &kp A         &kp S         &kp D         &kp F         &kp G                                     &kp H         &kp J             &kp K         &kp L         &kp SEMICOLON  &mt RSHIFT SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V         &kp B         &trans           &trans     &kp N         &kp M             &kp COMMA     &kp PERIOD    &kp QUESTION   &kp ENTER
-                                            &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp BACKSPACE    &kp SPACE  &trans        &kp LEFT_CONTROL  &trans
+&trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS
+&kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T                                  &kp Y         &kp U             &kp I         &kp O         &kp P          &kp BACKSLASH
+&kp ESCAPE      &kp A         &kp S         &kp D         &kp F         &kp G                                  &kp H         &kp J             &kp K         &kp L         &kp SEMICOLON  &mt RSHIFT SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V         &kp B          &trans       &trans     &kp N         &kp M             &kp COMMA     &kp PERIOD    &kp QUESTION   &kp ENTER
+                                            &kp LEFT_ALT  &kp LEFT_GUI  &kp BACKSPACE  &kp SPACE    &kp SPACE  &trans        &kp LEFT_CONTROL  &trans
             >;
         };
 
